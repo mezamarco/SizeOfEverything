@@ -3,20 +3,11 @@
 int main() 
 {
   char ch = 'f';
-
   bool flag = true;
-	
   int integerNumber = 33;
-
   float floatNumber = 44.44;
-
-	double doubleNumber = 23.55;
-	
-	int arr[10] = {1,2,3,4,5,6,7,8,9,10};
-	
-
-
-
+  double doubleNumber = 23.55;
+  int arr[10] = {1,2,3,4,5,6,7,8,9,10};
 
 
 	std::cout << "\nThe size of a single character:\t" << sizeof(ch) << " byte" << std::endl;
